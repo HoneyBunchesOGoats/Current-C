@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "e626d710-a559-4ba5-82a1-2f58dbee00f0",
+            "Value": {
+                "id": "42f3109f-dfe0-408b-af21-ccd3a7364c27",
+                "resourcePath": "sprites\\spr_bingus\\spr_bingus.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "e2c157d3-a5a3-4817-84c0-f4bb1fcff52a",
