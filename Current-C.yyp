@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "280dc769-a381-4359-b7d7-34a42b0340ff",
+            "Value": {
+                "id": "9620e619-73ab-4811-824c-4fa394c1d5a4",
+                "resourcePath": "objects\\obj_bingus\\obj_bingus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "33025566-833f-42cf-b444-ab64d261fa2a",
             "Value": {
                 "id": "8498fde6-192c-4650-8db4-bc2819d755c0",
