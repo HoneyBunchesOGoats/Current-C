@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "418ff7a6-c007-4768-968e-36251682610f",
+            "Value": {
+                "id": "b66be3f5-73c6-47b1-aa0a-468ee950d122",
+                "resourcePath": "objects\\obj_bongus\\obj_bongus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "41b8319b-58b9-484f-a84d-5c77059f1194",
             "Value": {
                 "id": "b0846ec1-2d2d-4065-a271-a451c7469692",
