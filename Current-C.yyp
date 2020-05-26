@@ -58,7 +58,7 @@
             "Key": "280dc769-a381-4359-b7d7-34a42b0340ff",
             "Value": {
                 "id": "9620e619-73ab-4811-824c-4fa394c1d5a4",
-                "resourcePath": "objects\\obj_bingus\\obj_bingus.yy",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -82,7 +82,7 @@
             "Key": "418ff7a6-c007-4768-968e-36251682610f",
             "Value": {
                 "id": "b66be3f5-73c6-47b1-aa0a-468ee950d122",
-                "resourcePath": "objects\\obj_bongus\\obj_bongus.yy",
+                "resourcePath": "objects\\obj_wall\\obj_wall.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -194,7 +194,7 @@
             "Key": "e0823b5e-cc64-4907-8839-fb17fd242c37",
             "Value": {
                 "id": "e4fed949-da9f-4003-92f4-864cbaff5259",
-                "resourcePath": "sprites\\spr_coin\\spr_coin.yy",
+                "resourcePath": "sprites\\spr_wall\\spr_wall.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -202,7 +202,7 @@
             "Key": "e626d710-a559-4ba5-82a1-2f58dbee00f0",
             "Value": {
                 "id": "42f3109f-dfe0-408b-af21-ccd3a7364c27",
-                "resourcePath": "sprites\\spr_bingus\\spr_bingus.yy",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
                 "resourceType": "GMSprite"
             }
         },
