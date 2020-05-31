@@ -2,7 +2,7 @@
 {
     "name": "room0",
     "id": "6fe7868d-3da1-4b2f-a302-8d30219623e9",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -180,7 +180,7 @@
             "id": "e1a3602e-ab3f-48ba-8b6e-fd8052ec0f20",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4278190080 },
+            "colour": { "Value": 4288986066 },
             "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
