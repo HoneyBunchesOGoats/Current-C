@@ -27,6 +27,8 @@ if( !moving )
 //MOVEMENT
 if( moving )
 {
+	
+	
 	x += delta_x * spd;
 	y += delta_y * spd;
 	move_timer += abs((delta_x * spd) + (delta_y * spd));
