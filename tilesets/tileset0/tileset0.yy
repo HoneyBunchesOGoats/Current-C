@@ -5,28 +5,28 @@
     "name": "tileset0",
     "auto_tile_sets": [
         {
-            "id": "d73c3b28-57d6-4371-aeca-7e34f4f43db9",
+            "id": "d0a15f18-2c47-44ec-b76e-d68b69c84d8f",
             "modelName": "GMAutoTileSet",
             "mvc": "1.0",
             "closed_edge": false,
             "name": "autotile_1",
             "tiles": [
-                73,
-                89,
-                90,
-                66,
-                82,
-                72,
-                88,
-                65,
-                83,
                 87,
-                74,
-                67,
+                103,
+                104,
                 80,
+                96,
+                86,
+                101,
                 79,
+                97,
+                102,
+                88,
                 81,
-                86
+                94,
+                93,
+                95,
+                0
             ]
         }
     ],
