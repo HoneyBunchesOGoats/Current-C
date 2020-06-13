@@ -15,6 +15,7 @@ if( !moving )
 		}
 		delta_y = -1;
 		moving = true;
+		scr_step();
 	}
 	else if( keyboard_check(vk_down) || keyboard_check(ord("S")) )
 	{
@@ -29,6 +30,7 @@ if( !moving )
 		}
 		delta_y = 1;
 		moving = true;
+		scr_step();
 	}
 	else if( keyboard_check(vk_left) || keyboard_check(ord("A")) )
 	{
@@ -43,6 +45,7 @@ if( !moving )
 		}
 		delta_x = -1;
 		moving = true;
+		scr_step();
 	}
 	else if( keyboard_check(vk_right) || keyboard_check(ord("D")) )
 	{
@@ -57,6 +60,7 @@ if( !moving )
 		}
 		delta_x = 1;
 		moving = true;
+		scr_step();
 	}
 }
 
