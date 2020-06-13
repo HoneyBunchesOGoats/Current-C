@@ -4,6 +4,7 @@ if( !moving )
 {
 	if( keyboard_check(vk_up) || keyboard_check(ord("W")) )
 	{
+		face_v = false;
 		if( place_meeting( x, y - 16, obj_wall ) )
 		{
 			colliding = true;
@@ -17,6 +18,7 @@ if( !moving )
 	}
 	else if( keyboard_check(vk_down) || keyboard_check(ord("S")) )
 	{
+		face_v = true;
 		if( place_meeting( x, y + 16, obj_wall ) )
 		{
 			colliding = true;
@@ -30,6 +32,7 @@ if( !moving )
 	}
 	else if( keyboard_check(vk_left) || keyboard_check(ord("A")) )
 	{
+		face_h = true;
 		if( place_meeting( x - 16, y, obj_wall ) )
 		{
 			colliding = true;
@@ -43,6 +46,7 @@ if( !moving )
 	}
 	else if( keyboard_check(vk_right) || keyboard_check(ord("D")) )
 	{
+		face_h = false;
 		if( place_meeting( x + 16, y, obj_wall ) )
 		{
 			colliding = true;
@@ -59,6 +63,7 @@ if( !moving )
 //MOVEMENT
 if( moving )
 {
+	
 	show_debug_message( global.current_c );
 	if( !colliding )
 	{
@@ -77,3 +82,12 @@ if( moving )
 		colliding = false;
 	}
 }
+
+//ANIMATION
+var frame = 0;
+if(!face_v)
+	frame += 2;
+if(!face_h)
+	frame++;
+	
+image_index = 2 * frame;
